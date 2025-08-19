@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html> <!--Comentário-->
+    <head>
+        <meta charset="UTF-8"/> <!--caracteres especiais-->
+        <title>
+            Tags Básicas <!--nome da página-->
+        </title>
+        <link rel="stylesheet" href="estilo.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="titulo"> <!--Navegador busca por esses "h"s e dá prioridade a eles no motor de busca-->
+            Título da Página
+        </h1>
+        <p class="texto">
+            Essa é a página de aprendizado das tags básicas!
+            Observe o erro!
+        </p>
+        <p class="texto">
+            Esse é outro parágrafo da página de aprendizado das tags básicas
+        </p>
+        <div class="exemplo">
+            Texto de exemplo
+        </div>
+        <img src="https://www.google.com.br/google.jpg" alt="Logo do Google"/> <!--"alt" é uma alternativa em texto da imagem-->
+        <br/> <!--quebra de linha-->
+        <a href="https://www.google.com.br" style="font-size: 30px;">Ir para o site do Google</a>
+        <br/>
+        <img src="ProtoPet-Renan.png" alt="ProtoPEt"/> <!--"alt" pode ser lido por pessoas com deificiência visual-->
+        <br/>
+        <button id="botao">Clique em mim</button>
+        <br/>
+        <h3 class = "lista">
+            Lista desordenada de bolo:
+        </h3>
+        <ul class = "elementos" style="list-style-type: square;"> <!--lista desordenada-->
+            <li>Farinha</li> <!--lista um item-->
+            <li>Ovo</li>
+            <li>Fermento</li>
+        </ul>
+        <h3 class = "lista">
+            Lista ordenada de bolo:
+        </h3>
+        <ol class = "elementos" start="46" type="I"> <!--lista ordenada--> <!--"start começa no número indicado"-->
+            <li>Farinha</li>
+            <li>Ovo</li>
+            <li>Fermento</li>
+        </ol>
+        <div>
+            <a href="paginas_extras/teste1.html" target="_blank" title="Página de teste1"> <!--target abre em uma nova aba-->
+                Fazer login
+            </a>
+        </div>
+        <div>
+            <a href="teste.html" target="_blank" title="Página de teste"> <!--tudo qu estiver entre a "anchor", guiará para o link-->
+                <img src="ProtoPet-Renan.png"/>
+            </a>
+            <br>
+            Texto <b>Teste b (Sem importância semântica para deficientes visuais)</b>
+            <br>
+            Texto <strong>Teste Strong (Com importância semântica para deficientes visuais)</strong>
+            <br>
+            Texto <i>Teste i</i>
+            <br>
+            Texto <em>Teste em</em>
+            <br>
+            Texto <small>Teste small</small>
+            <br>
+            Texto <del>Teste del</del>
+            <br>
+            Texto <mark>Teste mark</mark>
+            <br>
+            Texto <sup>Teste sup</sup>
+            <br>
+            Texto <sub>Teste sub</sub>
+        </div>
+        <div>
+            <a href="#Parte1" class="Link">Ir para Parte1</a>
+            <br/>
+            <a href="#Parte2" class="Link">Ir para Parte2</a>
+            <br/>
+            <a href="#Parte3" class="Link">Ir para Parte3</a>
+            <br/>
+            <a href="#Parte4" class="Link">Ir para Parte4</a>
+            <br/>
+            <a href="#Parte5" class="Link">Ir para Parte5</a>
+            <br/>
+            <a href="#Parte6" class="Link">Ir para Parte6</a>
+            <br/>
+        </div>
+        <h1 id="Parte1">Parte 1</h1>
+        <p>
+            Parte 1 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte1"/>
+        <h2 id="Parte2">Parte 2</h2>
+        <p>
+            Parte 2 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte2"/>
+        <h3 id="Parte3">Parte 3</h3>
+        <p>
+            Parte 3 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte3"/>
+        <h4 id="Parte4">Parte 4</h4>
+        <p>
+            Parte 4 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte4"/>
+        <h5 id="Parte5">Parte 5</h5>
+        <p>
+            Parte 5 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte5"/>
+        <h6 id="Parte6">Parte 6</h6>
+        <p>
+            Parte 6 texto
+        </p>
+        <img src="ProtoPet-Renan.png" id="Imagem_Parte6"/>
+
+        <table id="tabela" border="0">
+            <thead>
+                <tr>
+                    <th>Item 1</th>
+                    <th>Item 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>                </td>
+                    <td>                </td>
+                </tr>
+                <tr>
+                    <td>                </td>
+                    <td>                </td>
+                </tr>
+                <tr>
+                    <td>                </td>
+                    <td>                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

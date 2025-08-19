@@ -1,0 +1,3 @@
+CSS inline: CSS na própri linha de código
+CSS interno: CSS na head do código
+CSS externo: arquivo externo é referenciado no código HTML

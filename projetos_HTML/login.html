@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="login_estilo.css"/>
+</head>
+<body>
+    <h1>Página de Login</h1>
+
+    <h2>Área de Login</h2>
+    <form action="login.html" method="GET"> <!--GET pega as informações dentro do form e joga na URL da página action-->   <!--POST pega as informações dentro do form e envia internamente na página action-->
+        <label>Select</label>
+        <select name="ordenacao" size="2" multiple>
+            <option value="bestseller">Mais vendidos</option>
+            <option value="last" selected>Mais recentes</option> <!--"selected" faz com que o selecionado por padrão seja esta-->
+        </select>
+        <br/>
+        <label for="nome">Usuário</label> <!--clicar na "label" seleciona aquilo que está no "for", neste caso  o "id" "nome"-->
+        <input type="text" name="usuario" value="Coloque seu nome" id="nome"/> <!--todo input precisa de um "name" para identificar o q está sendo enviado-->
+        <br/>
+        <!--variações do tipo "text"-->
+        <label> <!--outro método de utilizar "label"-->
+            Email:<br/>
+            <input type="email" name="email" value="Coloque seu email"/> <!--type="text" pré-formatado para receber um email (algumacoisa@)-->
+        </label>
+        <br/>
+        <input type="color"/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <input type="datetime-local"/>
+        <br/>
+        <input type="month"/>
+        <br/>
+        <input type="week"/>
+        <br/>
+        <input type="time"/>
+        <br/>
+        <input type="number"/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <input type="search"/>
+        <br/>
+        <input type="tel"/>
+        <br/>
+        <input type="url"/>
+        <br/>
+        <input type="password" name="senha" value="Coloque sua senha"/>
+        <br/>
+        <input type="checkbox" id="teste"/>
+        <label for="teste">Essa frase é maior para ajudar no aprendizado</label>
+        <br/>
+        <input type="radio" name="sexo"/> <!--names diferentes marcam categorias diferentes-->
+        <br/>
+        <input type="radio" name="sexo"/>
+        <br/>
+        <textarea id="descTXT" name="descricao" rows="10" cols="25"></textarea> <!--"rows" e "cols" define o tamanho específico para caber 10 linhas e 20 colunas-->
+        <br/>
+        <button>Texto do botão</button> <!--serve como "submit" mas também serve fora do formulário-->
+        <br/>
+        <input type="submit" value="Fazer login"/>
+        <br/>
+    </form>
+
+    <h2>Área de Cadastro</h2>
+    <form>
+        <label>
+            Nome de usuário: <br/>
+            <input type="text" name="user"/>
+        </label>
+        <label>
+            Descrição: <br/>
+            <textarea name="descricao"></textarea>
+        </label>
+        <label>
+            Categoria:
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+            </select>
+        </label>
+        <label>
+            <input type="checkbox" name="Termos_Condicoes"/>
+            Eu declaro que li e aceito os <a href="paginas_extras/termos" target="_blank" id="termoslink">termos de uso </a>
+        </label>
+        <button>Fazer cadastro</button>
+    </form>
+
+</body>
+</html>

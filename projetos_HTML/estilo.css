@@ -1,0 +1,184 @@
+#titulo
+{
+    background-color: red;
+    color:blue;
+}
+
+.texto
+{
+    color:brown;
+}
+
+img
+{
+    width: 150px;
+}
+
+#botao,
+.lista
+{
+    color:darkmagenta;
+}
+
+#botao
+{
+    font-weight: bold;
+}
+
+ol li
+{
+    color: rgb(175, 108, 119);
+}
+
+ul li
+{
+    color: rgb(29, 136, 100);
+}
+
+
+p
+{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+h1
+{
+    border-top: 5px dotted black;
+}
+
+li
+{
+    border: 2px dashed goldenrod;
+}
+
+img
+{
+    border: 10px solid rebeccapurple;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+}
+
+.exemplo
+{
+    border: 1px solid greenyellow;
+    border-radius: 2px;
+    padding: 10px; /*espaçamento interno (antes da borda)*/
+    margin: 10px; /*espaçamento externo (depois da borda)*/
+}
+
+body
+{
+    padding: 5px 20px 10px 5px;
+}
+
+#Imagem_Parte1
+{
+    height: 600px;
+}
+
+#Imagem_Parte2
+{
+    height: 500px;
+}
+
+#Imagem_Parte3
+{
+    height: 400px;
+}
+
+#Imagem_Parte4
+{
+    height: 300px;
+}
+
+#Imagem_Parte5
+{
+    height: 200px;
+}
+
+#Imagem_Parte6
+{
+    height: 100px;
+}
+
+.Link
+{
+    color: forestgreen;
+    font-size: 40px;
+}
+
+.Link:hover /*o ":" serve pra espicificar estado*/    /*mudança quando o mouse estiver por cima*/
+{
+    color: red;
+}
+
+.Link:visited
+{
+    color: rgb(29, 131, 131);
+}
+
+p
+{
+    color:blue;
+    font-size: 20px;
+    font-family: "Google Sans Code", monospace, Comic Sans MS, Helvetica, Arial; /*A vírgula muda a fonte caso o PC não tenha a fonte nates da vírgula*/
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px; /*espaço entre caracteres*/
+    word-spacing: 5px; /*espaço entre palavras*/
+    line-height: 30px;
+    text-shadow: 2px 3px 5px rgb(64, 231, 49); /*distância para: horizontal (+direita -esquerda), vertical (+baixo -cima), dispersão da fumaça*/
+}
+
+
+a
+{
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+#tabela
+{
+    width: 600px;
+
+}
+
+th, td
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table thead
+{
+    background-color: cornflowerblue;
+    text-align: left;
+}
+
+table tbody
+{
+    background-color: rgb(196, 86, 86);
+}
+
+tbody td:hover
+{
+    background-color: chocolate;
+}
+
+tbody td
+{
+    border: 2px dashed black;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: rgb(241, 168, 115);
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: rgb(185, 82, 7);
+}
